@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/scan_from_picture"
-        android:title="从相册选取二维码"
+        android:title="Select QR code from the album"
         app:showAsAction="never" />
     <item
         android:id="@+id/encode_barcode"
-        android:title="生成条形码"
+        android:title="Generate barcode"
         app:showAsAction="never" />
 </menu>

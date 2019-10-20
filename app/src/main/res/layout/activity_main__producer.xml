@@ -6,4 +6,43 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity_Producer">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/empty"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/Add Supplier"
+        android:layout_width="123dp"
+        android:layout_height="48dp"
+        android:text="AddSupplier"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <Button
+        android:id="@+id/AddDetail"
+        android:layout_width="123dp"
+        android:layout_height="48dp"
+        android:text="AddDetail"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <Button
+        android:id="@+id/Generate"
+        android:layout_width="278dp"
+        android:layout_height="50dp"
+        android:text="Generate"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="512dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="226dp"
+        android:layout_height="271dp"
+        app:srcCompat="@drawable/supplier"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="88dp" />
 </android.support.constraint.ConstraintLayout>

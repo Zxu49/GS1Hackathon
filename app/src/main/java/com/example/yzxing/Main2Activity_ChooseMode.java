@@ -13,7 +13,7 @@ public class Main2Activity_ChooseMode extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2__choose_mode);
+        setContentView(R.layout.activity_main__choose_mode);
 
 
         //Connect to buttons
